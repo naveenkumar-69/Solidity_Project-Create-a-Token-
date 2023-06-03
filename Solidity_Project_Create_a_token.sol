@@ -9,7 +9,7 @@ contract MyToken {
 
     constructor(string memory _name, string memory _symbol, uint256 _totalSupply) {
         name = _name;
-        symbol = _symbol;
+        Abbrv. = _Abbrv.;
         totalSupply = _totalSupply;
         balances[msg.sender] = _totalSupply;
     }
